@@ -1,0 +1,46 @@
+site_name: Персональный сайт | Ерманов Алексей
+site_description: Персональный сайт, созданный с использованием технологии MkDocs и языка разметки Markdown в рамках курсовой работы по предмету "Введение в веб технологии"
+site_author: Ерманов Алексей
+site_url: https://lexermanov.github.io/devops-lab-ermanov/
+
+theme:
+  name: material
+  language: ru
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.share
+    - navigation.expand
+    - content.code.copy
+  palette:
+    primary: indigo
+    accent: blue
+
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+
+nav:
+  - Главная: index.md
+  - О себе: about.md
+  - Проекты: projects.md
+  - Контакты: contacts.md
+
+copyright: Copyright &copy; 2026 Ерманов Алексей
+extra:
+  social:
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/alexey_ermanov
+      name: Telegram
+    - icon: fontawesome/brands/github
+      link: https://github.com/lexermanov
+      name: GitHub
