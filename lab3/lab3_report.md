@@ -21,6 +21,7 @@ Date of finished: -
 Ход Работы
 
 Развернута система мониторинга в Docker: запущен Node Exporter для сбора метрик, Prometheus для их хранения и Grafana для визуализации. Создана сеть monitoring для связи контейнеров, настроены источники данных и создан дашборд с графиками CPU и памяти.
+
 <img width="930" height="700" alt="2026-03-20_07-02-58" src="https://github.com/user-attachments/assets/4844add5-193f-4a72-a697-455be644e263" />
 <img width="775" height="409" alt="2026-03-20_07-10-36" src="https://github.com/user-attachments/assets/07787e83-9a1c-475d-aae8-4c6c2b40813e" />
 <img width="771" height="527" alt="2026-03-20_07-10-46" src="https://github.com/user-attachments/assets/0ea1c62d-e326-4809-8bb5-827f174dd20c" />
